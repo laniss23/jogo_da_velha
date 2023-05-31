@@ -1,12 +1,29 @@
-main{
+main {
     text-align: center;
 }
 .tabuleiro div input {
-    width: 200px;
-    height: 200px;
+    width:100px;    
+    height:100px;
     margin: 5px;
-    border: 3px solid palevioletred;
-    border-radius: 10px;
+    border: 2px  purple;
+    border-radius: 8px;
     font-size: 30px;
     cursor: pointer;
+}
+body {
+    text-align: right;
+    background-color: #0d0d3f;
+    margin: 200px 0 0 0;
+    color: #8fa8f2;
+    overflow: auto;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace ;
+}
+h1 {
+   color: #8fa8f2;
+   font-size: 60px;
+   font-family: 'Courier New', Courier, monospace;
+}
+input {
+    background-color: #b0b8d1;
 }
